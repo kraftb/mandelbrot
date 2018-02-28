@@ -22,6 +22,7 @@ all: mandelbrot
 
 clean:
 	rm -f *.o
+	rm mandelbrot
 
 $(OBJECTS): %.o: %.c $(HEADERS)
 	gcc -c $(INCLUDE) -o $@ $<
