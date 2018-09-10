@@ -15,9 +15,10 @@ extern int mandel_step;
 
 void mandel_alg_init();
 void mandel_alg_start(double x, double y);
-void mandel_iterate();
+void mandel_alg_iterate();
+void mandel_alg_status();
 int mandel_alg_exceed();
-void mandel_print();
+void mandel_alg_status();
 double mandel_alg_log();
 
 #endif

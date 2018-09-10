@@ -84,9 +84,8 @@ int main(int argc, char **argv) {
 	mandel_alg_status();
 	fprintf(stdout, "min Steps = %d\n", minSteps);
 	fprintf(stdout, "max Exponent = %g\n", maxE);
-	sleep(20);
+//	sleep(20);
 	
-
 	mandel_video_quit();
 }
 
